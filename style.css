@@ -1,0 +1,123 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #E4C59C;
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:#090446;
+    font-size: 30px;
+    height: 90px;
+    line-height: 80px;
+    color:#E6E6E9;
+}
+#greeting{
+    height: 80px;
+    margin-top: 15px;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #786f52;
+    text-align: center;
+}
+#quote{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  
+}
+#new-quote{
+    background-color: #675829;
+   height: 40px;
+   width: 80px;
+    margin-left: 5px;
+     border-radius: 10px;
+}
+h2{
+    font-size:40px ;
+}
+#list{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#input{
+    height: 30px;
+    width: 300px;
+    margin-left: 5px;
+}
+#input:focus {
+  outline: none;
+  border: 2px solid #8D7B68;
+}
+.ti{
+    padding: 10px;
+}
+#taskbut{
+    background-color: #6A5D4C;
+     border-radius: 15px;
+     height: 40px;
+     width: 80px;
+}
+#taskbut:hover,#new-quote:hover,#toggle:hover{
+  background-color: #8D7B68;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+#toggle{
+background-color: #6A5D4C;
+height: 20px;
+width: 60px;
+  position: fixed;
+  bottom: 5px;
+   border-radius: 50px;
+
+}
+footer{
+  text-align: right;  
+    }
+
+    @media (max-width: 600px) {
+  header {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  #list {
+    font-size: 20px;
+  }
+
+  #input,
+  #taskbut {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  #toggle {
+    width: 50px;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 14px;
+  }
+}
