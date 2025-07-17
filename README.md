@@ -6,7 +6,7 @@ A minimal, responsive and interactive **Productivity App** built using HTML, CSS
 
 ## 🔗 Live Demo
 
-👉 **[Click here to see the app in action](https://mahak96.github.io/productivity-app/)**  
+👉 **[Click here to see the app in action](https://mahak96.github.io/productivity-app-/)**  
 (Deployed with 💙 GitHub Pages)
 
 ---
