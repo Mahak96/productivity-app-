@@ -9,33 +9,44 @@
 <body>
     <header>
     <h1> Productivity App </h1>
+    <br>
+  <p id="dark">dark mode</p>
+
+<button id="toggle">&#127763  </button>
+
     </header>
+
     <main>
     <section id="greeting">&#128075; Goood Morning Mahak 
     </section>
     <section id="quotes">
-  <!-- <h2>Motivational Quote</h2> -->
-  <button id="new-quote">New Quote</button><p id="quote"> &#9733<b> You should work very hard</b></p>
+ 
+  <button id="new-quote">New Quote</button><p id="quote"> </p>
  
    </section>
 
-    <section id="task">
+    <section id="task" >
         <h2 >My Tasks</h2>
-        <ul id="list">
-        <li class="ti"><input type="checkbox" /> Doing javascript</li>
-        <li class="ti"> <input type="checkbox"/> Doing html</li>
-        <li class="ti"><input type="checkbox"/> Doing and making games</li>
-          </ul>
+       <table id="table">
+  <thead>
+    <tr>
+      <th>Task</th>
+      <th>Delete</th>
+      <th>Complete</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
   <input id="input" type="text" placeholder="Enter a new task" />
   <button id="taskbut" >Add Task</button>
   
 </section>
 <br>
-<section>
-<button id="toggle">&#127763  </button>
-</section>
+
 </main>
-        <footer>&copy; Mahak <a href="..."> live page</a></footer>
+        <footer>&copy; Mahak <a href="https://mahak96.github.io/productivity-app-/"> live page</a></footer>
 <script src="script.js"></script>
 </body>
 </html>
